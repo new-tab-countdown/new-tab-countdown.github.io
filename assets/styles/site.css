@@ -1,0 +1,132 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  user-select: none; }
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 24px;
+  color: #262626;
+  cursor: default; }
+
+.new-tab-countdown-info {
+  padding-top: 10px;
+  padding-left: 10px; }
+  .new-tab-countdown-info .title {
+    color: #262626; }
+  .new-tab-countdown-info .sub-title {
+    color: #262626;
+    font-size: 0.65em; }
+  .new-tab-countdown-info .links {
+    font-size: 0.65em;
+    padding-top: 5px;
+    position: absolute; }
+    .new-tab-countdown-info .links .link {
+      text-decoration: none;
+      color: #707070;
+      cursor: pointer; }
+      .new-tab-countdown-info .links .link:hover {
+        border-bottom: 1px dotted; }
+    .new-tab-countdown-info .links .divider {
+      padding: 2px; }
+
+.countdown-list {
+  width: 99vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.blurred-countdown {
+  color: whitesmoke;
+  padding-top: 25px;
+  padding-bottom: 15px; }
+  .blurred-countdown .dropdown {
+    display: inline-block;
+    position: relative;
+    color: whitesmoke;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    cursor: pointer; }
+
+.countdown {
+  padding-top: 25px;
+  padding-bottom: 15px; }
+  .countdown .dropdown {
+    display: inline-block;
+    position: relative;
+    color: #707070;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    cursor: pointer; }
+
+.dropdown-options {
+  display: block;
+  position: absolute;
+  z-index: 1; }
+  .dropdown-options .dropdown-option {
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap; }
+    .dropdown-options .dropdown-option:hover {
+      color: #0a0a0a; }
+    .dropdown-options .dropdown-option .helper-message {
+      font-size: 12px;
+      color: #707070;
+      padding: 0;
+      margin: 0;
+      cursor: default; }
+
+.custom-date-input {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 24px;
+  color: #707070;
+  width: 11.25em;
+  border: none;
+  cursor: pointer; }
+  .custom-date-input:hover::-webkit-input-placeholder {
+    color: #0a0a0a; }
+  .custom-date-input:focus {
+    outline-width: 0;
+    border-bottom: 1px dotted;
+    cursor: auto; }
+
+.enable-delete-countdown .delete-countdown {
+  font-size: 0.65em;
+  color: #707070;
+  padding-left: 5px;
+  position: relative;
+  bottom: 3px;
+  cursor: pointer; }
+  .enable-delete-countdown .delete-countdown:hover {
+    color: #0a0a0a; }
+
+.modify-countdown {
+  color: #707070;
+  font-size: 0.65em;
+  display: inline-block; }
+  .modify-countdown .add-countdown {
+    cursor: pointer; }
+    .modify-countdown .add-countdown:hover {
+      color: #0a0a0a; }
+  .modify-countdown .disabled-add-countdown {
+    cursor: default; }
+    .modify-countdown .disabled-add-countdown .tooltip-message {
+      padding-left: 5px; }
+  .modify-countdown .toggle-enable-delete-countdown {
+    cursor: pointer; }
+    .modify-countdown .toggle-enable-delete-countdown:hover {
+      color: #0a0a0a; }
+  .modify-countdown .disabled-toggle-enable-delete-countdown {
+    cursor: default; }
+
+.all-countdowns-deleted-text {
+  padding-top: 25px;
+  padding-bottom: 15px; }
+  .all-countdowns-deleted-text .add-countdown-text {
+    cursor: pointer;
+    color: #707070;
+    border-bottom: 1px dotted; }
+    .all-countdowns-deleted-text .add-countdown-text:hover {
+      color: #0a0a0a; }
